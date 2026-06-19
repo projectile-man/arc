@@ -1,0 +1,195 @@
+**Patricia:** Gracias por asistir. El objetivo de este proyecto es mejorar la gestión de solicitudes de nuestros clientes. Actualmente tenemos demasiados canales y es difícil hacer seguimiento.
+
+**Andrés:** Desde el área comercial también vemos problemas. Muchas veces un cliente llama para consultar algo y nadie sabe en qué estado está su solicitud.
+
+**Daniela:** ¿Cuál sería el principal objetivo del sistema?
+
+**Patricia:** Queremos centralizar toda la información de los clientes en una sola plataforma.
+
+**Miguel:** Entendido. Entonces hablamos de una única fuente de información para toda la compañía.
+
+**Roberto:** Exactamente. Aunque algunas áreas probablemente seguirán utilizando sus sistemas actuales.
+
+**Miguel:** Bien... entonces la plataforma centralizaría la información, pero ciertos datos seguirían administrándose en otros sistemas.
+
+**Patricia:** Correcto, aunque para los usuarios debería parecer que todo está en un mismo lugar.
+
+**Daniela:** Tomo nota.
+
+**Andrés:** Algo importante es que los agentes puedan ver el historial completo del cliente.
+
+**Roberto:** Sí, pero debemos limitar cierta información sensible.
+
+**Daniela:** ¿Qué información sería sensible?
+
+**Roberto:** Información financiera detallada.
+
+**Andrés:** Aunque los agentes comerciales sí deberían poder verla para ofrecer mejores productos.
+
+**Miguel:** Entonces tendremos distintos niveles de acceso.
+
+**Patricia:** Pero preferiría que la configuración de permisos fuera sencilla para evitar demasiada administración.
+
+**Miguel:** Perfecto.
+
+**Daniela:** Hablemos del tiempo de actualización de la información.
+
+**Patricia:** Me gustaría que todos los cambios se reflejaran inmediatamente.
+
+**Miguel:** ¿Tiempo real?
+
+**Patricia:** Sí.
+
+**Roberto:** Aunque si tarda unos minutos no debería haber problema.
+
+**Andrés:** En ventas sí necesitamos datos actualizados al instante cuando hablamos con un cliente.
+
+**Miguel:** Entiendo.
+
+**Daniela:** ¿Cuántos usuarios utilizarán la plataforma?
+
+**Patricia:** Aproximadamente 300.
+
+**Roberto:** Solo en atención al cliente tenemos cerca de 250 personas.
+
+**Andrés:** Y ventas tiene otras 200.
+
+**Miguel:** Entonces estaríamos hablando de más de 450 usuarios.
+
+**Patricia:** Bueno, usuarios concurrentes probablemente no sean tantos.
+
+**Miguel:** Perfecto, tendremos que validar esos números.
+
+**Andrés:** También queremos una aplicación móvil.
+
+**Patricia:** Sí, aunque inicialmente el sistema será utilizado principalmente desde computadoras.
+
+**Miguel:** ¿La aplicación móvil es obligatoria para la primera fase?
+
+**Andrés:** Sería ideal.
+
+**Patricia:** Si afecta demasiado el presupuesto, podría esperar.
+
+**Daniela:** Entonces la dejamos como requisito de alta prioridad, pero no indispensable para el lanzamiento inicial.
+
+**Andrés:** Correcto.
+
+**Roberto:** Otra necesidad es automatizar la asignación de casos.
+
+**Miguel:** ¿Con reglas de negocio?
+
+**Roberto:** Sí.
+
+**Patricia:** Pero los supervisores deben poder reasignar cualquier caso manualmente.
+
+**Roberto:** Aunque preferiría que el sistema evitara cambios manuales para mantener el control.
+
+**Miguel:** Entendido.
+
+**Daniela:** ¿Cómo mediremos el éxito del proyecto?
+
+**Patricia:** Reduciendo los tiempos de atención.
+
+**Andrés:** Y aumentando las oportunidades de venta.
+
+**Roberto:** Para mí lo más importante es reducir la cantidad de casos abiertos.
+
+**Miguel:** Son métricas diferentes, pero compatibles.
+
+**Patricia:** También necesitamos reportes ejecutivos.
+
+**Daniela:** ¿Con qué frecuencia?
+
+**Patricia:** Mensualmente debería ser suficiente.
+
+**Andrés:** Yo necesitaría indicadores diarios.
+
+**Roberto:** Nosotros revisamos métricas cada hora durante campañas importantes.
+
+**Miguel:** Entonces necesitaremos diferentes niveles de reporte.
+
+**Daniela:** Respecto a la información histórica, ¿cuánto tiempo debemos conservarla?
+
+**Patricia:** Al menos dos años.
+
+**Roberto:** Algunos reclamos pueden requerir información más antigua.
+
+**Andrés:** Para análisis comerciales sería ideal conservar todo el historial disponible.
+
+**Miguel:** Tomo nota de esa diferencia.
+
+**Patricia:** Me preocupa mucho la facilidad de uso.
+
+**Roberto:** Sí, los agentes deben aprender a usar el sistema rápidamente.
+
+**Andrés:** Pero también necesitamos muchas funcionalidades avanzadas.
+
+**Miguel:** Existe un equilibrio entre simplicidad y complejidad funcional.
+
+**Patricia:** Mientras no requiera demasiada capacitación.
+
+**Daniela:** ¿Qué nivel de disponibilidad esperan?
+
+**Patricia:** El sistema debe estar siempre disponible.
+
+**Miguel:** ¿Podemos definir un objetivo específico?
+
+**Patricia:** Digamos 99.9%.
+
+**Roberto:** Aunque durante la noche podríamos aceptar algunas ventanas de mantenimiento.
+
+**Andrés:** Nuestros equipos comerciales trabajan en distintas zonas horarias.
+
+**Miguel:** Entendido.
+
+**Roberto:** También queremos notificaciones automáticas.
+
+**Miguel:** ¿Por correo electrónico?
+
+**Roberto:** Sí.
+
+**Andrés:** Y mensajes en la aplicación móvil.
+
+**Patricia:** Aunque no queremos generar demasiadas alertas porque los usuarios terminan ignorándolas.
+
+**Miguel:** Entonces debemos definir cuidadosamente qué eventos generan notificaciones.
+
+**Daniela:** ¿Qué sistemas deben integrarse?
+
+**Patricia:** CRM, ERP y plataforma de soporte.
+
+**Miguel:** ¿Todos disponen de APIs?
+
+**Patricia:** Creo que sí.
+
+**Roberto:** La plataforma de soporte sí.
+
+**Andrés:** El ERP antiguo no tiene APIs modernas.
+
+**Miguel:** Entonces probablemente necesitaremos mecanismos de integración adicionales.
+
+**Patricia:** También queremos que el proyecto esté listo en cuatro meses.
+
+**Miguel:** Considerando las integraciones, automatizaciones, reportes y seguridad, es un plazo bastante ajustado.
+
+**Andrés:** Podemos liberar funcionalidades gradualmente.
+
+**Patricia:** Siempre que la solución principal esté operativa desde el inicio.
+
+**Miguel:** Tendremos que definir exactamente qué significa "operativa".
+
+**Daniela:** Para cerrar, resumo los principales requisitos: centralización de información, acceso por roles, actualización casi en tiempo real, automatización de casos, reportes, aplicación móvil, integraciones y analítica.
+
+**Patricia:** Correcto.
+
+**Miguel:** Aunque todavía debemos aclarar varios puntos.
+
+**Andrés:** ¿Como cuáles?
+
+**Miguel:** El alcance real de la aplicación móvil, el volumen esperado de usuarios, la retención de información histórica, los niveles de acceso y la definición exacta de tiempo real.
+
+**Roberto:** Son detalles que podremos resolver durante el proyecto.
+
+**Miguel:** Algunos sí, aunque otros pueden afectar significativamente el diseño de la solución.
+
+**Patricia:** De acuerdo. Agendemos una segunda sesión para profundizar en esos temas.

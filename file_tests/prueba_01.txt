@@ -1,0 +1,63 @@
+Ana: Gracias por unirse. El objetivo de este proyecto es mejorar la visibilidad de nuestra cadena de suministro. Actualmente no sabemos exactamente dónde están los productos en tiempo real.
+
+Carla: Sí, eso ha generado retrasos en entregas y problemas con clientes. ¿Qué nivel de visibilidad estás buscando?
+
+Ana: Idealmente, quiero poder rastrear pedidos desde que salen del almacén hasta que llegan al cliente final.
+
+Luis: ¿Estamos hablando de tracking en tiempo real o actualizaciones por eventos?
+
+Ana: En tiempo real sería lo ideal, pero si es muy costoso, podríamos empezar con actualizaciones cada cierto intervalo.
+
+Carla: También necesitamos considerar a los proveedores. Ahora mismo, no tenemos forma de saber si van retrasados hasta que es demasiado tarde.
+
+Luis: Entonces necesitamos integrar el sistema con los proveedores. ¿Ellos tienen APIs o tendríamos que trabajar con archivos?
+
+Ana: Algunos tienen APIs, otros solo mandan correos o Excel.
+
+Carla: Entonces el sistema debe poder manejar múltiples formatos de entrada.
+
+Luis: Ok, eso implica un módulo de integración bastante flexible. También necesitaríamos un dashboard para visualizar toda esta información.
+
+Ana: Sí, un dashboard es clave. Quiero ver KPIs como tiempos de entrega, retrasos y niveles de inventario.
+
+Carla: Hablando de inventario, actualmente hay mucha discrepancia entre lo que dice el sistema y lo que realmente hay en almacén.
+
+Luis: Entonces necesitamos sincronización en tiempo real con el sistema de inventarios.
+
+Ana: Correcto. Y también alertas automáticas cuando el inventario esté bajo cierto nivel.
+
+Carla: O cuando haya retrasos en envíos.
+
+Luis: Perfecto, entonces un sistema de notificaciones configurable.
+
+Ana: Otro punto importante: el sistema debe ser fácil de usar. No todos en operaciones son técnicos.
+
+Carla: Sí, la curva de aprendizaje debe ser baja.
+
+Luis: Eso entra en usabilidad. También necesitamos definir temas de seguridad. ¿Qué tipo de usuarios habrá?
+
+Ana: Habrá administradores, personal de operaciones y posiblemente proveedores con acceso limitado.
+
+Carla: Entonces necesitamos control de accesos por roles.
+
+Luis: Claro. Y en cuanto a volumen, ¿cuántos pedidos manejamos al día?
+
+Ana: Aproximadamente 10,000, pero esperamos crecer.
+
+Luis: Entonces debemos diseñar el sistema para que sea escalable.
+
+Carla: Y disponible. No podemos permitir caídas durante horas laborales.
+
+Ana: Exacto, el sistema debe estar disponible al menos 99.9% del tiempo.
+
+Luis: Entendido. También sería bueno registrar históricos para análisis.
+
+Carla: Sí, para poder hacer predicciones a futuro.
+
+Ana: Me gusta eso. Incluso podríamos usar eso más adelante para optimización.
+
+Luis: Entonces necesitamos almacenamiento de datos históricos y posiblemente capacidades de analítica.
+
+Carla: Una última cosa: cumplimiento. Tenemos que cumplir con regulaciones de datos.
+
+Luis: Perfecto, lo incluyo en los requisitos de seguridad y cumplimiento.
