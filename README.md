@@ -2,6 +2,12 @@
 
 AI Requirements Copilot (ARC) es una solución basada en Inteligencia Artificial Generativa diseñada para asistir a Product Owners y equipos de desarrollo en la generación, análisis y validación de requisitos funcionales, requisitos no funcionales e historias de usuario a partir de información no estructurada.
 
+---
+
+# Autor
+
+CARLOS ALBERTO ORTIZ BARBOSA
+
 ## Requisitos previos
 
 Antes de ejecutar el proyecto, es necesario contar con:
