@@ -84,7 +84,7 @@ Guarda la clave generada para los siguientes pasos.
 Clona el repositorio en tu equipo:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone (https://github.com/projectile-man/arc.git)
 ```
 
 Accede al directorio del proyecto:
